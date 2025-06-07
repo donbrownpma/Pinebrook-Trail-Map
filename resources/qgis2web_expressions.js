@@ -766,59 +766,59 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_pinebrookTrails_5rule0_eval_expression(context) {
-    // Difficulty = 'EASIER'
+function exp_webTrails_5rule0_eval_expression(context) {
+    // Status = 'PRIVATE' AND Difficulty = 'EASIER'
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.get('Difficulty')  == 'EASIER');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'EASIER'));
     } else {
-        return (feature.get('Difficulty')  == 'EASIER');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'EASIER'));
     }
 }
 
 
-function exp_pinebrookTrails_5rule1_eval_expression(context) {
-    // Difficulty = 'DIFFICULT'
+function exp_webTrails_5rule1_eval_expression(context) {
+    // Status = 'PRIVATE' AND Difficulty = 'MODERATE'
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.get('Difficulty')  == 'DIFFICULT');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'MODERATE'));
     } else {
-        return (feature.get('Difficulty')  == 'DIFFICULT');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'MODERATE'));
     }
 }
 
 
-function exp_pinebrookTrails_5rule2_eval_expression(context) {
-    // Difficulty = 'EXTREME'
+function exp_webTrails_5rule2_eval_expression(context) {
+    // Status = 'PRIVATE' AND Difficulty = 'DIFFICULT'
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.get('Difficulty')  == 'EXTREME');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'DIFFICULT'));
     } else {
-        return (feature.get('Difficulty')  == 'EXTREME');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'DIFFICULT'));
     }
 }
 
 
-function exp_pinebrookTrails_5rule3_eval_expression(context) {
-    // Difficulty = 'MODERATE'
+function exp_webTrails_5rule3_eval_expression(context) {
+    // Status = 'PRIVATE' AND Difficulty = 'EXTREME'
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.get('Difficulty')  == 'MODERATE');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'EXTREME'));
     } else {
-        return (feature.get('Difficulty')  == 'MODERATE');
+        return ((feature.get('Status')  == 'PRIVATE') && (feature.get('Difficulty')  == 'EXTREME'));
     }
 }
 
 
-function exp_pinebrookTrails_5rule4_eval_expression(context) {
+function exp_webTrails_5rule4_eval_expression(context) {
     // Status = 'PUBLIC'
 
     var feature = context.feature;

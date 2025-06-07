@@ -9,16 +9,16 @@ var style_webTrails_5 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("var value = '';");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var labelFont = "7.800000000000001px \'Helvetica\', sans-serif";
+    var labelFill = "#323232";
+    var bufferColor = "#fafafa";
+    var bufferWidth = 3.0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'line';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("Name") !== null) {
+        labelText = String(feature.get("Name"));
     }
     
         function rules_webTrails_5(feature, value) {

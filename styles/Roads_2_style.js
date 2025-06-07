@@ -9,7 +9,7 @@ var style_Roads_2 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "13.0px \'.AppleSystemUIFont\', sans-serif";
+    var labelFont = "10.4px \'.AppleSystemUIFont\', sans-serif";
     var labelFill = "#000000";
     var bufferColor = "#ffffff";
     var bufferWidth = 3.0;
